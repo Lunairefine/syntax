@@ -39,6 +39,13 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     images: ["/ogt.png"],
   },
+  other: {
+    'fc:frame': 'vNext',
+    'fc:frame:image': 'https://syntax-lunaire.vercel.app/image.png',
+    'fc:frame:button:1': 'Create your magic',
+    'fc:frame:button:1:action': 'link',
+    'fc:frame:button:1:target': 'https://syntax-lunaire.vercel.app',
+  },
 };
 
 export default function RootLayout({
