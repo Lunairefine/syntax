@@ -1,6 +1,6 @@
-'use client'
+"use client"
 import { useEffect, useRef, useState } from 'react';
-import { summon, saveImage } from '@/latest/core';
+import { summon, saveImage } from '@/lib/core';
 
 export default function SigilCanvas() {
     const svgRef = useRef<SVGSVGElement>(null);

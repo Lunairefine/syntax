@@ -1,4 +1,3 @@
-// primitives.ts
 import { createSVGElement, applyStyle, addChild } from './utils';
 import { SVGStyle } from './types';
 

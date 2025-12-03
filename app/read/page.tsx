@@ -1,6 +1,6 @@
 "use client"
 import { useState, useRef, ChangeEvent } from 'react';
-import { _m1 } from '@/latest/utils'; 
+import { _m1 } from '@/lib/utils'; 
 
 export default function ReaderPage() {
   const [log, setLog] = useState<string[]>([]);
