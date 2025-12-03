@@ -14,7 +14,10 @@
     "primaryCategory": "art-creativity",
     "heroImageUrl": "https://syntax-lunaire.vercel.app/icon.png",
     "ogTitle": "Syntax Deployment",
-    "ogImageUrl": "https://syntax-lunaire.vercel.app/icon.png"
+    "ogImageUrl": "https://syntax-lunaire.vercel.app/icon.png",
+    "screenshotUrls": [
+      "https://syntax-lunaire.vercel.app/image.png"
+    ]
   },
   "accountAssociation": {
     "header": "eyJmaWQiOjU0ODczNSwidHlwZSI6ImF1dGgiLCJrZXkiOiIweDk1MDU2QUM2QUY2YjMzNjg2MTY2MkQ4N0YyNzRBODgyNzEzZmUxNkUifQ",
