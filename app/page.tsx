@@ -1,4 +1,4 @@
-import Canvas from '@/components/Canvas';
+import Canvas from '@/components/content';
 import Footer from '@/components/Footer';
 
 export default function Home() {
