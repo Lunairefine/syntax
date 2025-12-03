@@ -40,12 +40,21 @@ export const metadata: Metadata = {
     images: ["/ogt.png"],
   },
   other: {
-    'fc:frame': 'vNext',
-    'fc:frame:image': 'https://syntax-lunaire.vercel.app/image.png',
-    'fc:frame:button:1': 'Create your magic',
-    'fc:frame:button:1:action': 'link',
-    'fc:frame:button:1:target': 'https://syntax-lunaire.vercel.app',
-  },
+  "fc:frame": JSON.stringify({
+    version: "next",
+    imageUrl: "https://syntax-lunaire.vercel.app/ogt.png",
+    button: {
+      title: "Create your magic",
+      action: {
+        type: "Create your magic",
+        name: "Syntax Lunaire",
+        url: "https://syntax-lunaire.vercel.app",
+        splashImageUrl: "https://syntax-lunaire.vercel.app/icon.png",
+        splashBackgroundColor: "#000000",
+      },
+    },
+  }),
+},
 };
 
 export default function RootLayout({
