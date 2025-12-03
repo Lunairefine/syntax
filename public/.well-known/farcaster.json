@@ -1,0 +1,27 @@
+{
+  "frame": {
+    "name": "Syntax",
+    "version": "1",
+    "iconUrl": "https://syntax-lunaire.vercel.app/icon.png",
+    "homeUrl": "https://syntax-lunaire.vercel.app",
+    "imageUrl": "https://syntax-lunaire.vercel.app/image.png",
+    "buttonTitle": "Create your magic",
+    "splashImageUrl": "https://syntax-lunaire.vercel.app/icon.png",
+    "splashBackgroundColor": "#ffffff",
+    "webhookUrl": "https://syntax-lunaire.vercel.app/api/webhook",
+    "subtitle": "Made your magic with Syntax",
+    "description": "Made your magic with Syntax",
+    "primaryCategory": "art-creativity",
+    "heroImageUrl": "https://syntax-lunaire.vercel.app/icon.png",
+    "ogTitle": "Syntax Deployment",
+    "ogImageUrl": "https://syntax-lunaire.vercel.app/icon.png"
+  },
+  "accountAssociation": {
+    "header": "eyJmaWQiOjU0ODczNSwidHlwZSI6ImF1dGgiLCJrZXkiOiIweDk1MDU2QUM2QUY2YjMzNjg2MTY2MkQ4N0YyNzRBODgyNzEzZmUxNkUifQ",
+    "payload": "eyJkb21haW4iOiJzeW50YXgtbHVuYWlyZS52ZXJjZWwuYXBwIn0",
+    "signature": "XUKeR2qZDOghb6VmiBjXDAutUSe23NhDBYfUMMcRUjE0VJt6isMjeAW/J0bVkv/Js0mX31teXjk0R4qdn2CmTxw="
+  },
+  "BaseBuilder": {
+    "ownerAddress": "0x9111c47492a9043d12af0e6c46d57560eebcd9d4"
+  }
+}
