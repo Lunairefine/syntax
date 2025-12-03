@@ -46,7 +46,7 @@ export const metadata: Metadata = {
     button: {
       title: "Create your magic",
       action: {
-        type: "Create your magic",
+        type: "launch_frame",
         name: "Syntax Lunaire",
         url: "https://syntax-lunaire.vercel.app",
         splashImageUrl: "https://syntax-lunaire.vercel.app/icon.png",
