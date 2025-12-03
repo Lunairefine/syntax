@@ -7,7 +7,7 @@
     "imageUrl": "https://syntax-lunaire.vercel.app/image.png",
     "buttonTitle": "Create your magic",
     "splashImageUrl": "https://syntax-lunaire.vercel.app/icon.png",
-    "splashBackgroundColor": "#ffffff",
+    "splashBackgroundColor": "#000000",
     "webhookUrl": "https://syntax-lunaire.vercel.app/api/webhook",
     "subtitle": "Made your magic with Syntax",
     "description": "Made your magic with Syntax",
