@@ -13,8 +13,31 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Syntax Synthesizer",
-  description: "What can you make any Magic",
+  title: "Syntax",
+  description: "Made your magic with Syntax",
+  metadataBase: new URL('https://syntax-lunaire.vercel.app'),
+  openGraph: {
+    title: "Syntax Deployment",
+    description: "Made your magic with Syntax",
+    url: "https://syntax-lunaire.vercel.app",
+    siteName: "Syntax",
+    images: [
+      {
+        url: "/og.png",
+        width: 1200,
+        height: 630,
+        alt: "Syntax OG Image",
+      },
+    ],
+    locale: "en_US",
+    type: "website",
+  },
+  twitter: {
+    title: "Syntax",
+    description: "Made your magic with Syntax",
+    card: "summary_large_image",
+    images: ["/ogt.png"],
+  },
 };
 
 export default function RootLayout({
